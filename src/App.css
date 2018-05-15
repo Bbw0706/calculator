@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+  width: 30%;
+  margin: 0 auto;
+  margin-top: 40px;
+  box-shadow: 0px 0px 5px 2px #444;
+  border-radius: 30px;
+  padding: 90px 50px;
+  background: #f7f7f7;
+  margin-bottom: 20px;
+}
+
+.head{
+  margin-top: -40px;
+}
+
+input[type=text]{
+  margin: 20px;
+  width: 70%;
+  border: none;
+  font-size: 20px;
+  padding: 5px;
+  border-bottom: 1px solid #2ad;
+  text-align: right;
+  background: none;
+}
+
+input[type=text]:focus{
+  outline: none;
+  border-bottom: 2px solid #2ad;
+}
+
+h4{
+  margin-bottom: 0;
+}
+
+.group button{
+  margin: 20px;
+  font-size: 20px;
+  border: none;
+  padding: 5px 10px;
+  color: #2ad;
+  background: none;
+  border: 2px dashed #2ad;
+  transition: color 0.5s, background 0.5s;
+}
+.group button:hover{
+  background: #19f;
+  color : white;
+}
+
+@media (max-width : 1000px){
+  .App{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 80px 20px;
+  }
+}
